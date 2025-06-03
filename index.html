@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>Backbeat - Instrumentos y Clases</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+  <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-container">
+        <div aria-label="Logo Backbeat" class="logo-circle">
+          <i aria-hidden="true" class="fas fa-headphones"></i>
+        </div>
+        <div aria-hidden="true" class="logo-text">BACKBEAT</div>
+      </div>
+      <nav aria-label="Menú principal">
+        <a href="#home" tabindex="0">Inicio</a>
+        <a href="#products" tabindex="0">Productos</a>
+        <a href="#instruments" tabindex="0">Instrumentos</a>
+        <a href="#classes" tabindex="0">Clases</a>
+        <a href="#philosophy" tabindex="0">Filosofía</a>
+        <a href="#contact" tabindex="0">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="home">
+    <!-- Hero Section -->
+   <section aria-label="Bienvenida a Backbeat" class="hero">
+    <div class="hero-text">
+     <h1>
+      Bienvenido a Backbeat
+     </h1>
+     <p>
+      Estilo fresco y auténtico para músicos jóvenes
+     </p>
+     <button aria-label="Descubre nuestra colección" class="btn-primary" type="button">
+      Descubre nuestra colección
+     </button>
+    </div>
+    <div aria-hidden="true" class="hero-image">
+     <img alt="Guitarra eléctrica azul sobre fondo claro" src="https://storage.googleapis.com/a1aa/image/a725a61e-2acc-4041-eb0b-86c1031b8a98.jpg"/>
+    </div>
+   </section>
+   <!-- Products Section -->
+   <section aria-label="Productos promocionales Backbeat" class="products" id="products">
+    <h2>
+     Productos
+    </h2>
+    <div class="product-list" role="list">
+     <article aria-label="Taza Backbeat" class="product-card" role="listitem" tabindex="0">
+      <img alt="Taza blanca con logo azul Backbeat" src="https://storage.googleapis.com/a1aa/image/2d2d5368-5fed-4e28-2e58-b48a9bbaaf08.jpg"/>
+      <h3>
+       Taza Backbeat
+      </h3>
+      <button aria-label="Comprar taza Backbeat" class="btn-primary" type="button">
+       Comprar ahora
+      </button>
+     </article>
+     <article aria-label="Bolsa tote Backbeat" class="product-card" role="listitem" tabindex="0">
+      <img alt="Bolsa tote beige con logo azul Backbeat" src="https://storage.googleapis.com/a1aa/image/930564c4-9254-4508-b323-ea94b3fd1126.jpg"/>
+      <h3>
+       Bolsa Tote Backbeat
+      </h3>
+      <button aria-label="Comprar bolsa tote Backbeat" class="btn-primary" type="button">
+       Comprar ahora
+      </button>
+     </article>
+     <article aria-label="Audífonos Backbeat" class="product-card" role="listitem" tabindex="0">
+      <img alt="Audífonos negros con logo azul Backbeat" src="https://storage.googleapis.com/a1aa/image/7e78925a-6a96-4876-40b1-dcbaf5b4373b.jpg"/>
+      <h3>
+       Audífonos Backbeat
+      </h3>
+      <button aria-label="Comprar audífonos Backbeat" class="btn-primary" type="button">
+       Comprar ahora
+      </button>
+     </article>
+    </div>
+   </section>
+   <!-- Instruments Section -->
+   <section aria-label="Sección de instrumentos" class="instruments" id="instruments">
+    <h2>
+     Instrumentos
+    </h2>
+    <article aria-label="Instrumentos de cuerda" class="instrument-category">
+     <h3>
+      🎻 String Instruments
+     </h3>
+     <ul aria-label="Lista de instrumentos de cuerda" class="instrument-list" role="list" style="padding-left:0; list-style:none; display:flex; flex-wrap:wrap; gap:1rem;">
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Violin instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/a0de88c2-1cc8-4c44-c1bb-57f51264b2c6.jpg" width="140"/>
+       <h3>
+        Violin
+       </h3>
+       <p class="price">
+        $3,200 MXN
+       </p>
+       <button aria-label="Comprar Violin" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Viola instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/e9b74111-424c-4a2c-7f58-a2527f64e8c0.jpg" width="140"/>
+       <h3>
+        Viola
+       </h3>
+       <p class="price">
+        $3,500 MXN
+       </p>
+       <button aria-label="Comprar Viola" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Cello instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/f45e35e0-c73e-443e-7f9e-914e789cf21f.jpg" width="140"/>
+       <h3>
+        Cello
+       </h3>
+       <p class="price">
+        $7,800 MXN
+       </p>
+       <button aria-label="Comprar Cello" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Double bass instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/8aba7d9d-bfcb-46e0-3b1e-2016a336af02.jpg" width="140"/>
+       <h3>
+        Double bass
+       </h3>
+       <p class="price">
+        $12,000 MXN
+       </p>
+       <button aria-label="Comprar Double bass" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Acoustic guitar instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/3ee389ae-b3bf-41c8-8d19-3913abc0444b.jpg" width="140"/>
+       <h3>
+        Acoustic guitar
+       </h3>
+       <p class="price">
+        $4,500 MXN
+       </p>
+       <button aria-label="Comprar Acoustic guitar" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Electric guitar instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/83c20055-2262-4648-3f24-7e4dbc9b9022.jpg" width="140"/>
+       <h3>
+        Electric guitar
+       </h3>
+       <p class="price">
+        $6,800 MXN
+       </p>
+       <button aria-label="Comprar Electric guitar" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Electric bass instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/7c29c29c-cd84-4fa2-ab38-1df427152d1a.jpg" width="140"/>
+       <h3>
+        Electric bass
+       </h3>
+       <p class="price">
+        $7,200 MXN
+       </p>
+       <button aria-label="Comprar Electric bass" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Harp instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/7666739d-26f4-445f-9113-98b4856022e3.jpg" width="140"/>
+       <h3>
+        Harp
+       </h3>
+       <p class="price">
+        $15,000 MXN
+       </p>
+       <button aria-label="Comprar Harp" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Banjo instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/7bc5fcee-532c-42e5-c1ec-8a8390cb19a3.jpg" width="140"/>
+       <h3>
+        Banjo
+       </h3>
+       <p class="price">
+        $3,900 MXN
+       </p>
+       <button aria-label="Comprar Banjo" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Ukulele instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/5ae4d5e5-4d7a-4d7a-cd13-a83fd78dcebc.jpg" width="140"/>
+       <h3>
+        Ukulele
+       </h3>
+       <p class="price">
+        $2,800 MXN
+       </p>
+       <button aria-label="Comprar Ukulele" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+     </ul>
+    </article>
+    <article aria-label="Instrumentos de viento madera" class="instrument-category">
+     <h3>
+      🎺 Woodwind Instruments
+     </h3>
+     <ul aria-label="Lista de instrumentos de viento madera" class="instrument-list" role="list" style="padding-left:0; list-style:none; display:flex; flex-wrap:wrap; gap:1rem;">
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Transverse flute instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/f1ac0c8c-4500-42a6-68e5-29a46ee5c462.jpg" width="140"/>
+       <h3>
+        Transverse flute
+       </h3>
+       <p class="price">
+        $1,200 MXN
+       </p>
+       <button aria-label="Comprar Transverse flute" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Recorder instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/28f3803e-8eac-490e-609e-ccb3297e8ab5.jpg" width="140"/>
+       <h3>
+        Recorder
+       </h3>
+       <p class="price">
+        $900 MXN
+       </p>
+       <button aria-label="Comprar Recorder" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Clarinet instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/1cdc6f7e-38f1-4275-644d-407132131e2a.jpg" width="140"/>
+       <h3>
+        Clarinet
+       </h3>
+       <p class="price">
+        $3,500 MXN
+       </p>
+       <button aria-label="Comprar Clarinet" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Oboe instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/e94ac408-5503-4fd9-8526-2893cfb94b5c.jpg" width="140"/>
+       <h3>
+        Oboe
+       </h3>
+       <p class="price">
+        $4,200 MXN
+       </p>
+       <button aria-label="Comprar Oboe" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Bassoon instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/64aaa7d8-0eaa-4807-eb0c-493167e60d0e.jpg" width="140"/>
+       <h3>
+        Bassoon
+       </h3>
+       <p class="price">
+        $5,000 MXN
+       </p>
+       <button aria-label="Comprar Bassoon" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Piccolo instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/da04cb02-87fa-4ac8-0594-36d074f335ae.jpg" width="140"/>
+       <h3>
+        Piccolo
+       </h3>
+       <p class="price">
+        $1,100 MXN
+       </p>
+       <button aria-label="Comprar Piccolo" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Quena instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/e00ae713-3c42-4b60-6eba-38522625dec8.jpg" width="140"/>
+       <h3>
+        Quena
+       </h3>
+       <p class="price">
+        $1,300 MXN
+       </p>
+       <button aria-label="Comprar Quena" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Pan flute instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/b1484bbb-ef8b-4e72-b284-98778bc235ea.jpg" width="140"/>
+       <h3>
+        Pan flute
+       </h3>
+       <p class="price">
+        $1,400 MXN
+       </p>
+       <button aria-label="Comprar Pan flute" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Ney instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/f3cacb77-df54-4a78-4725-95dd1d886e7a.jpg" width="140"/>
+       <h3>
+        Ney
+       </h3>
+       <p class="price">
+        $1,600 MXN
+       </p>
+       <button aria-label="Comprar Ney" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Shakuhachi instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/1f7e00f7-ddcb-40e6-406d-f071be448c92.jpg" width="140"/>
+       <h3>
+        Shakuhachi
+       </h3>
+       <p class="price">
+        $1,800 MXN
+       </p>
+       <button aria-label="Comprar Shakuhachi" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+     </ul>
+    </article>
+    <article aria-label="Instrumentos de viento metal" class="instrument-category">
+     <h3>
+      🎷 Brass Instruments
+     </h3>
+     <ul aria-label="Lista de instrumentos de viento metal" class="instrument-list" role="list" style="padding-left:0; list-style:none; display:flex; flex-wrap:wrap; gap:1rem;">
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Trumpet instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/a227024d-e904-411b-24d8-e167f14d10e6.jpg" width="140"/>
+       <h3>
+        Trumpet
+       </h3>
+       <p class="price">
+        $3,200 MXN
+       </p>
+       <button aria-label="Comprar Trumpet" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="French horn instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/117a9a90-e18c-4eb9-13a8-5c17c6d6b797.jpg" width="140"/>
+       <h3>
+        French horn
+       </h3>
+       <p class="price">
+        $4,000 MXN
+       </p>
+       <button aria-label="Comprar French horn" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Trombone instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/bf6347e9-8343-4278-53ad-677fe95dcf2d.jpg" width="140"/>
+       <h3>
+        Trombone
+       </h3>
+       <p class="price">
+        $3,800 MXN
+       </p>
+       <button aria-label="Comprar Trombone" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Tuba instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/c8726b9b-6609-4e3f-ed13-43db0a8fde5a.jpg" width="140"/>
+       <h3>
+        Tuba
+       </h3>
+       <p class="price">
+        $5,500 MXN
+       </p>
+       <button aria-label="Comprar Tuba" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Cornet instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/726e1038-99ca-4736-5432-ca470654aed4.jpg" width="140"/>
+       <h3>
+        Cornet
+       </h3>
+       <p class="price">
+        $3,000 MXN
+       </p>
+       <button aria-label="Comprar Cornet" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+     </ul>
+    </article>
+    <article aria-label="Instrumentos de percusión" class="instrument-category">
+     <h3>
+      🥁 Percussion Instruments
+     </h3>
+     <ul aria-label="Lista de instrumentos de percusión" class="instrument-list" role="list" style="padding-left:0; list-style:none; display:flex; flex-wrap:wrap; gap:1rem;">
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Drum set instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/6c1f6ce1-d1ef-45a4-b6f7-3694e5c7e753.jpg" width="140"/>
+       <h3>
+        Drum set
+       </h3>
+       <p class="price">
+        $8,000 MXN
+       </p>
+       <button aria-label="Comprar Drum set" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Snare drum instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/7d41434c-e324-49b4-5b16-f0568fc7ef7f.jpg" width="140"/>
+       <h3>
+        Snare drum
+       </h3>
+       <p class="price">
+        $2,500 MXN
+       </p>
+       <button aria-label="Comprar Snare drum" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Cymbals instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/fd3cc703-8a6d-477d-ba38-5b127432ef12.jpg" width="140"/>
+       <h3>
+        Cymbals
+       </h3>
+       <p class="price">
+        $1,800 MXN
+       </p>
+       <button aria-label="Comprar Cymbals" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Bongos instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/b56a2d51-eb60-44aa-5db7-60a1485d7a1d.jpg" width="140"/>
+       <h3>
+        Bongos
+       </h3>
+       <p class="price">
+        $1,200 MXN
+       </p>
+       <button aria-label="Comprar Bongos" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Congas instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/10192f8a-2d32-4a63-1717-ccfcae8eac7b.jpg" width="140"/>
+       <h3>
+        Congas
+       </h3>
+       <p class="price">
+        $1,500 MXN
+       </p>
+       <button aria-label="Comprar Congas" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Timbales instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/39e069a4-d48e-406b-6c43-37c377356bbe.jpg" width="140"/>
+       <h3>
+        Timbales
+       </h3>
+       <p class="price">
+        $1,700 MXN
+       </p>
+       <button aria-label="Comprar Timbales" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Cajón instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/43d0df1e-ad07-4dd5-23ff-ffda5d89c393.jpg" width="140"/>
+       <h3>
+        Cajón
+       </h3>
+       <p class="price">
+        $2,200 MXN
+       </p>
+       <button aria-label="Comprar Cajón" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Maracas instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/6c4ccfdb-e18d-4b5c-95ee-bc83e755c036.jpg" width="140"/>
+       <h3>
+        Maracas
+       </h3>
+       <p class="price">
+        $900 MXN
+       </p>
+       <button aria-label="Comprar Maracas" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Xylophone instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/5ae1b806-211d-4e31-3cb0-7113fd82a29d.jpg" width="140"/>
+       <h3>
+        Xylophone
+       </h3>
+       <p class="price">
+        $3,000 MXN
+       </p>
+       <button aria-label="Comprar Xylophone" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Triangle instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/88e015da-afd4-45a6-f3c7-ec8b56134aa4.jpg" width="140"/>
+       <h3>
+        Triangle
+       </h3>
+       <p class="price">
+        $800 MXN
+       </p>
+       <button aria-label="Comprar Triangle" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+     </ul>
+    </article>
+    <article aria-label="Instrumentos de teclado" class="instrument-category">
+     <h3>
+      🎹 Keyboard Instruments
+     </h3>
+     <ul aria-label="Lista de instrumentos de teclado" class="instrument-list" role="list" style="padding-left:0; list-style:none; display:flex; flex-wrap:wrap; gap:1rem;">
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Piano instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/8c225c13-d127-41e4-5b7c-9d6bc6889ec4.jpg" width="140"/>
+       <h3>
+        Piano
+       </h3>
+       <p class="price">
+        $10,000 MXN
+       </p>
+       <button aria-label="Comprar Piano" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Organ instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/dc151e1a-3098-45f6-6ec0-51bbd2aa90d8.jpg" width="140"/>
+       <h3>
+        Organ
+       </h3>
+       <p class="price">
+        $8,500 MXN
+       </p>
+       <button aria-label="Comprar Organ" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Electronic keyboard instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/1f9b710d-c27a-4dc2-a782-8b46dd8ee12a.jpg" width="140"/>
+       <h3>
+        Electronic keyboard
+       </h3>
+       <p class="price">
+        $6,000 MXN
+       </p>
+       <button aria-label="Comprar Electronic keyboard" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Harpsichord instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/64cd31f0-319a-42ff-9ccf-f97fab9071ed.jpg" width="140"/>
+       <h3>
+        Harpsichord
+       </h3>
+       <p class="price">
+        $12,000 MXN
+       </p>
+       <button aria-label="Comprar Harpsichord" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Synthesizer instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/61ccf8a4-e5e4-450c-041a-269eb1ecd2a1.jpg" width="140"/>
+       <h3>
+        Synthesizer
+       </h3>
+       <p class="price">
+        $7,500 MXN
+       </p>
+       <button aria-label="Comprar Synthesizer" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+     </ul>
+    </article>
+    <article aria-label="Instrumentos tradicionales y étnicos" class="instrument-category">
+     <h3>
+      🌍 Traditional / Ethnic Instruments
+     </h3>
+     <ul aria-label="Lista de instrumentos tradicionales y étnicos" class="instrument-list" role="list" style="padding-left:0; list-style:none; display:flex; flex-wrap:wrap; gap:1rem;">
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Sitar instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/d89631a1-41f7-4739-3592-f5d54022274d.jpg" width="140"/>
+       <h3>
+        Sitar
+       </h3>
+       <p class="price">
+        $9,000 MXN
+       </p>
+       <button aria-label="Comprar Sitar" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Koto instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/e985245d-34f2-4182-658a-e01996fdc26f.jpg" width="140"/>
+       <h3>
+        Koto
+       </h3>
+       <p class="price">
+        $8,000 MXN
+       </p>
+       <button aria-label="Comprar Koto" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Djembe instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/a4d684a5-800a-4661-bb86-24533be4a0e7.jpg" width="140"/>
+       <h3>
+        Djembe
+       </h3>
+       <p class="price">
+        $3,500 MXN
+       </p>
+       <button aria-label="Comprar Djembe" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Kalimba instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/83c22959-edb3-4b43-2fd1-b15e0d74ba6f.jpg" width="140"/>
+       <h3>
+        Kalimba
+       </h3>
+       <p class="price">
+        $2,800 MXN
+       </p>
+       <button aria-label="Comprar Kalimba" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Didgeridoo instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/b462dc45-b086-43d0-5d9e-5d7f99b234d7.jpg" width="140"/>
+       <h3>
+        Didgeridoo
+       </h3>
+       <p class="price">
+        $4,200 MXN
+       </p>
+       <button aria-label="Comprar Didgeridoo" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+     </ul>
+    </article>
+    <article aria-label="Instrumentos electrónicos" class="instrument-category">
+     <h3>
+      🎧 Instrumentos electronicos
+     </h3>
+     <ul aria-label="Lista de instrumentos electrónicos" class="instrument-list" role="list" style="padding-left:0; list-style:none; display:flex; flex-wrap:wrap; gap:1rem;">
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="theremin instrument image" height="140" src="https://i.pinimg.com/736x/96/85/1a/96851aa69b58174a9c1539f3eb9d5f6a.jpg" width="140"/>
+       <h3>
+        Theremin
+       </h3>
+       <p class="price">
+        $5,000 MXN
+       </p>
+       <button aria-label="Comprar Theremin" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Sampler instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/6fd4aa54-cb18-4074-0ae8-235ce0c13156.jpg" width="140"/>
+       <h3>
+        Sampler
+       </h3>
+       <p class="price">
+        $4,500 MXN
+       </p>
+       <button aria-label="Comprar Sampler" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Drum machine instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/0a28813e-100f-4873-ccb6-a1d809882bf7.jpg" width="140"/>
+       <h3>
+        Drum machine
+       </h3>
+       <p class="price">
+        $6,000 MXN
+       </p>
+       <button aria-label="Comprar Drum machine" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="MIDI controller instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/b08770bf-17eb-4198-2bd3-abae4d38b314.jpg" width="140"/>
+       <h3>
+        MIDI controller
+       </h3>
+       <p class="price">
+        $7,000 MXN
+       </p>
+       <button aria-label="Comprar MIDI controller" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+      <li class="instrument-card" role="listitem" tabindex="0">
+       <img alt="Loop station instrument image" height="140" src="https://storage.googleapis.com/a1aa/image/d52d1097-e319-46fc-59c4-85ea9cb60458.jpg" width="140"/>
+       <h3>
+        Loop station
+       </h3>
+       <p class="price">
+        $8,500 MXN
+       </p>
+       <button aria-label="Comprar Loop station" class="btn-primary" type="button">
+        Comprar ahora
+       </button>
+      </li>
+     </ul>
+    </article>
+   </section>
+   <!-- Classes Section -->
+   <section aria-label="Sección de clases" class="classes" id="classes">
+    <h2>
+     Clases
+    </h2>
+    <div>
+     <p class="mb-6" style="font-weight:600; font-size:1.125rem; color:#0f766e;">
+      Ofrecemos clases personalizadas para todos los niveles.
+     </p>
+     <button aria-label="Reservar clase" class="btn-primary" type="button">
+      Reservar una clase
+     </button>
+    </div>
+   </section>
+
+    <!-- Philosophy Section -->
+    <section aria-label="Sección de filosofía e influencias" class="philosophy" id="philosophy">
+      <div class="text">
+        <h2>Nuestra Filosofía</h2>
+        <p>En Backbeat inspiramos, educamos y apoyamos a jóvenes músicos con pasión auténtica.</p>
+      </div>
+      <div class="image-container">
+        <img alt="Artista tocando guitarra en escenario" src="https://storage.googleapis.com/a1aa/image/f2d85e5b-0216-487d-1e98-df572227b423.jpg"/>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" role="contentinfo">
+    <div class="container">
+      <h3>
+        <i aria-hidden="true" class="fas fa-headphones"></i>
+        Contacta Backbeat
+      </h3>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <i aria-hidden="true" class="fas fa-envelope"></i>
+          <p>Email</p>
+          <p>info@backbeat.mx</p>
+        </div>
+        <div class="contact-item">
+          <i aria-hidden="true" class="fas fa-phone"></i>
+          <p>Teléfono</p>
+          <p>(899) 123-4567</p>
+        </div>
+        <div class="contact-item">
+          <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+          <p>Ubicación</p>
+          <p>Reynosa, Tamaulipas</p>
+        </div>
+      </div>
+      <p>Síguenos en redes sociales:</p>
+      <div class="social-icons">
+        <a aria-label="Facebook" href="#"><i class="fab fa-facebook"></i></a>
+        <a aria-label="Instagram" href="#"><i class="fab fa-instagram"></i></a>
+        <a aria-label="TikTok" href="#"><i class="fab fa-tiktok"></i></a>
+        <a aria-label="YouTube" href="https://www.youtube.com/@memoapont"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p class="copyright">© 2025 Backbeat. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <div id="shopping-cart">
+    <h3>🛒 Carrito</h3>
+    <ul id="cart-items"></ul>
+    <p id="cart-total"></p>
+    <button id="checkout-button">Finalizar compra</button>
+  </div>
+
+  <script src="backbeat.js"></script>
+</body>
+</html>
